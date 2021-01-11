@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon by Fabio</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Bowlby+One+SC'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+  <a href="https://codepen.io/fender90/" data-toggle="tooltip" title="Simon by Fabio." id="about" target="_blank" style="float: right; margin: 1em;" data-placement="left"><i class="fa fa-info-circle fa-4x" style="color: black"></i></a>
+
+  <div class="row container maingame">
+    <div class="title text-center">
+      <h1>Play with Simon!</h1>
+      <h4 id="instr">Press start to get going!</h4>
+    </div>
+    <div class="row container controls text-center">
+      
+      <div class="col col-sm-3	col-md-3	3col-lg-3	col-xl-3" id="start">
+        <button class="play btn btn-success">Start</button>
+      </div>
+      
+      <div class="col col-sm-3	col-md-3	3col-lg-3	col-xl-3" id="count">
+        <button class="play btn btn-secondary">Count: 00</button>
+      </div>
+      
+      <div class="col col-sm-3	col-md-3	3col-lg-3	col-xl-3">
+        <input type="checkbox" checked data-toggle="toggle" id="strict"><label>Hard Mode</label>
+      </div>
+      
+       <div class="col col-sm-3	col-md-3	3col-lg-3	col-xl-3">
+        <button class="play btn btn-danger" id="reset">Reset</button>
+      </div>
+      
+    </div>
+
+      <div class="col col-sm-3	col-md-3	3col-lg-3	col-xl-3" id="red"></div>
+      <div class="col col-sm-3	col-md-3	3col-lg-3	col-xl-3" id="blue"></div>
+      <div class="col col-sm-3	col-md-3	3col-lg-3	col-xl-3" id="green"></div>
+      <div class="col col-sm-3	col-md-3	3col-lg-3	col-xl-3" id="yellow"></div>
+
+  </div>
+</body>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-dotimeout/1.0/jquery.ba-dotimeout.min.js'></script>
+<script src='https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

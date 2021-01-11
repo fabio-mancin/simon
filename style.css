@@ -1,0 +1,49 @@
+body {
+  background: #6e89b5;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.col {
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.controls {
+  width: 420px;  
+}
+
+.maingame {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 430px;
+  height: 120px;
+  background-color: #6e89b5;
+}
+
+#red {
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+}
+
+#blue {
+  width: 100px;
+  height: 100px;
+  background-color: #0004ff;
+}
+
+#green {
+  width: 100px;
+  height: 100px;
+  background-color: #10a500;
+}
+
+#yellow {
+  width: 100px;
+  height: 100px;
+  background-color: #ada900;
+}
